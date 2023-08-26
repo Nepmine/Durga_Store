@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></style>
+    
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="store_navbar.css">
+    <link rel="stylesheet" href="store.css">
+    
+   
+    <script src="https://kit.fontawesome.com/36805fb440.js" crossorigin="anonymous"></script> <!-- font awesome -->
+
+</head>
+
+<body>
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light static"> <!--  fixed-top-->
+        <div class="container">
+          <a class="navbar-brand" href="#">Durga</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active" style="padding-left: 1vw; "> <!--  1,13,15-->
+                <a class="nav-link" href="../home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Clothes <i class="fa-solid fa-caret-down" class="dropdn"></i></a>
+                <div class="box1">
+                  <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li class="nested"><a href="#">Item 2</a></li>
+                    <div class="box1" id="box_inside">
+                      <ul>
+                        <li><a href="#">Item 1</a></li>
+                        <li><a href="#">Item 2</a></li>
+                        <li><a href="#">Item 3</a></li>
+                        <li><a href="#">Item 4</a></li>
+                        <li><a href="#">Item 5</a></li>
+                      </ul>
+                    </div>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Combo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trend</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Accessories <i class="fa-solid fa-caret-down" id="dropdn"></i></a>
+                <div class="box1">
+                  <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                    <li><a href="#">Item 4</a></li>
+                    <li><a href="#">Item 5</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto"> <!-- modified here, broke down -->
+              <li class="nav-item">
+                <a class="nav-link" href="../Cart.html"><i class="fa-solid fa-cart-shopping" title="Cart"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Login/login.html">Login <i class="fa-solid fa-user"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About_Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <div class="container">
+        <!-- <div class="sub-header">
+            <h2 class="title">Bags<span>1364 results</span></h2>
+        </div> -->
+        <div class="thumb-wrapper">
+            <div class="thumb-unit">
+                <div class="heading"><span>$120</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box"></div>
+                <div class="info">
+                    <p> Lorem ipsum dolor sit amet, consectetur </p>
+                    <span class="icon">
+                        <i class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="thumb-unit">
+                <div class="heading"><span>$300</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box" ></div>
+                <div class="info">
+                    <p>Handmade solon bag, clean outlook and latest design</p><span class="icon"><i
+                            class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="thumb-unit">
+                <div class="heading"><span>$250</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box"></div>
+                <div class="info">
+                    <p> Coach original product, pure symbol of luxury.</p><span class="icon"><i
+                            class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="thumb-unit">
+                <div class="heading"><span>$75</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box"></div>
+                <div class="info">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit</p><span class="icon"><i
+                            class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="thumb-unit">
+                <div class="heading"><span>$180</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box"></div>
+                <div class="info">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit</p><span class="icon"><i
+                            class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="thumb-unit">
+                <div class="heading"><span>$800</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box" onclick="box_clicked()"></div>
+                <div class="info">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit</p><span class="icon"><i
+                            class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="thumb-unit">
+                <div class="heading"><span>$400</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box"></div>
+                <div class="info">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit</p><span class="icon"><i
+                            class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="thumb-unit">
+                <div class="heading"><span>$600</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box"></div>
+                <div class="info">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit</p><span class="icon"><i
+                            class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+
+var hearts = document.getElementsByClassName("fa-heart-o");
+
+for (var i = 0; i < hearts.length; i++) {
+    hearts[i].addEventListener("click", function() {
+        if (this.style.color === "red") {
+            this.style.color = ""; // Reset to the default color
+        } else {
+            this.style.color = "red";
+        }
+    });
+
+    // onclick on box
+    var boxes = document.getElementsByClassName("box");
+    for (var j = 0; j < boxes.length; j++) 
+    {
+        boxes[j].addEventListener("click", boxClicked);
+    }
+
+   
+
+    function boxClicked() {
+        window.open("onclk.html", "_blank"); // Open in a new tab
+    }w.location.replace("onclk.html");
+    }
+
+
+         // var heart=document.getElementsByClassName("fa-heart-o").addEventListener("click",()=>{
+    //         this.style.color=red;
+    //     })
+    
+        
+
+    </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></style>
+    
+
+    <link rel="stylesheet" href="store.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="sub-header">
+            <h2 class="title">Bags<span>1364 results</span></h2>
+        </div>
+        <div class="thumb-wrapper">
+            <div class="thumb-unit">
+                <div class="heading" onclick="toggleHeart(this)"><span>$120</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box"></div>
+                <div class="info">
+                    <p> Lorem ipsum dolor sit amet, consectetur </p>
+                    <span class="icon">
+                        <i class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="thumb-unit">
+                <div class="heading"><span>$300</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box"></div>
+                <div class="info">
+                    <p>Handmade solon bag, clean outlook and latest design</p><span class="icon"><i
+                            class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="thumb-unit">
+                <div class="heading"><span>$250</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box"></div>
+                <div class="info">
+                    <p> Coach original product, pure symbol of luxury.</p><span class="icon"><i
+                            class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="thumb-unit">
+                <div class="heading"><span>$75</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box"></div>
+                <div class="info">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit</p><span class="icon"><i
+                            class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="thumb-unit">
+                <div class="heading"><span>$180</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box"></div>
+                <div class="info">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit</p><span class="icon"><i
+                            class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="thumb-unit">
+                <div class="heading"><span>$800</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box"></div>
+                <div class="info">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit</p><span class="icon"><i
+                            class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="thumb-unit">
+                <div class="heading"><span>$400</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box"></div>
+                <div class="info">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit</p><span class="icon"><i
+                            class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+            <div class="thumb-unit">
+                <div class="heading"><span>$600</span><span><i class="fa fa-heart-o"></i></span></div>
+                <div class="box"></div>
+                <div class="info">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit</p><span class="icon"><i
+                            class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+
+var hearts = document.getElementsByClassName("fa-heart-o");
+
+for (var i = 0; i < hearts.length; i++) {
+    hearts[i].addEventListener("click", function() {
+        if (this.style.color === "red") {
+            this.style.color = ""; // Reset to the default color
+        } else {
+            this.style.color = "red";
+        }
+    });
+}
+
+        
+        // var heart=document.getElementsByClassName("fa-heart-o").addEventListener("click",()=>{
+        //     this.style.color=red;
+        // })
+
+    </script>
+
+
+
+</body>
+
+</html>

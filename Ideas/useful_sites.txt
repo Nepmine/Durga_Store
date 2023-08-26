@@ -1,0 +1,19 @@
+for nice navigation and dropdown menu :: https://codepen.io/ig_design/pen/omQXoQ
+
+for dropdown menu with pictures :: https://codepen.io/dzoni404/pen/edgrKP
+
+Initial design, nav + slideshow ::https://codepen.io/divinector/pen/wZQVEP
+
+nice website for kiddos :: https://www.wix.com/website-template/view/html/2005?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fonline-store%2Fkids-babies%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3D16242175905%5E134377094078%26experiment_id%3D%5E%5E582523585401%5E%5E_DSA%26gclid%3DCj0KCQjwrMKmBhCJARIsAHuEAPTVppVvuYhtxFzK4m0hKV5fh8velNzjYG9J3_YyG5rZ3mqWeyu_XvwaAmBoEALw_wcB&tpClick=view_button&esi=a4929bbd-27df-4229-a14a-c89563ecb59a
+
+font awesome kit :: <script src="https://kit.fontawesome.com/36805fb440.js" crossorigin="anonymous"></script>
+
+Those 3 boxes: https://codepen.io/deredde/pen/wPvvKb
+
+Footer : https://codepen.io/MAHESHBYL/pen/MWvdORX
+
+Cart: https://codepen.io/alex_rodrigues/pen/rNbaEM
+
+login/sign in page:https://codepen.io/ethan-arrowood/pen/ygoaKd
+
+shopping-main: https://codepen.io/esco69/pen/pNXqXx

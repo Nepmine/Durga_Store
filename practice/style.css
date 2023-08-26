@@ -1,0 +1,70 @@
+/* Styles for navbar and other relevant styles */
+/* ... */
+
+.navbar {
+	background-color: #333;
+	color: white;
+  }
+  
+  .nav-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+  }
+  
+  .nav-item {
+	margin-right: 20px;
+  }
+  
+  .nav-link {
+	text-decoration: none;
+	color: white;
+	transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+	color: #ff9900;
+  }
+  
+  .dropdown-content {
+	position: absolute;
+	display: none;
+	background-color: white;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	animation: slideIn 0.3s ease forwards;
+	list-style: none;
+	padding: 0;
+  }
+  
+  .nav-item.dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  .row {
+	display: flex;
+	padding: 10px;
+  }
+  
+  .cell {
+	flex: 1;
+	border: 1px solid #ccc;
+	padding: 10px;
+	background-color: white;
+	margin: 5px;
+  }
+  
+  @keyframes slideIn {
+	0% {
+	  opacity: 0;
+	  transform: translateY(-10px);
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+  
+  /* Other styles and transitions */
+  /* ... */
+  
